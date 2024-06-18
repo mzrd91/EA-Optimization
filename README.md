@@ -21,7 +21,7 @@ The purpose of this project is to investigate the influence of key parameters on
   - Large population size may cause excessive computation and redundancy.
 
 ## Project Description
-Evolutionary algorithms are a class of optimization algorithms inspired by natural selection and genetics. This project includes implementing and testing different selection algorithms and measuring their performance based on solution quality.
+Solved (minimized) the **"Shekel’s foxholes"** problem this is a classic problem in the optimization literature for two dimensions, implementing proportional selection, truncation selection, deterministic tournament selection, and linear ranking selection in the same program, offering the user the ability to pick the selection mechanism through a parameter. Used some version of crossover and some version of mutation. For each of the selection algorithms that use a parameter, choose (separately) three different algorithm parameter values, and report results corresponding to the best parameter value for each algorithm. Also, implemented stochastic binary tournament selection with three different parameter values.
 
 ### Selection Algorithms
 1. **Proportional Selection**
